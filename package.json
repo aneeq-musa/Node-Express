@@ -1,0 +1,20 @@
+{
+  "name": "node-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "express-ejs-layouts": "^2.2.0",
+    "multer": "^1.3.0",
+    "mysql": "^2.13.0",
+    "nodemon": "^1.10.2"
+  }
+}
