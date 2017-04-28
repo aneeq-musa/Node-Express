@@ -5,6 +5,11 @@ var expressLayouts = require('express-ejs-layouts');
 var bodyParser     = require('body-parser');
 var app            = express();
 var port           = process.env.PORT || 8080;
+var path           = require('path');
+
+
+//change default res.render folder form views to _pages
+app.set('views', path.join(__dirname,'_pages'));
 
 // use ejs and express layouts
 app.set('view engine', 'ejs');
